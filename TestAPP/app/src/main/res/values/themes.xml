@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TestAPP" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.TestAPP.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TestAPP.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TestAPP.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

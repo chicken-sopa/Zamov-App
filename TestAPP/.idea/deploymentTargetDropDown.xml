@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="AddCarScreen">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\jmgil\.android\avd\Pixel_8_API_30_1.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-05-29T18:26:09.799333500Z" />
+        </State>
+      </entry>
+      <entry key="BorrowCarScreen">
+        <State />
+      </entry>
+      <entry key="CarsPage">
+        <State />
+      </entry>
+      <entry key="DetailsCarScreen">
+        <State />
+      </entry>
+      <entry key="SignInScreen">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+[versions]
+constraintlayout = "2.1.4"
+converterGson = "2.9.0"
+coreKtx = "1.13.1"
+datastorePreferences = "1.1.1"
+hiltAndroid = "2.50"
+hiltNavigationCompose = "1.2.0"
+junit = "4.13.2"
+kotlin = "1.9.0"
+composeNavigation = "2.8.0-beta02"
+kotlinStdlibJdk8 = "1.9.20"
+lifecycleViewmodelCompose = "2.8.1"
+material = "1.12.0"
+menu = "1.4.0"
+navigationUiKtx = "2.7.7"
+preferenceKtx = "1.2.1"
+roomCompiler = "2.6.1"
+serialization = "1.6.3"
+tracingKtx = "1.2.0"
+uiTextGoogleFonts = "1.6.7"
+
+
+[libraries]
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+androidx-datastore-core-android = { module = "androidx.datastore:datastore-core-android", version.ref = "datastorePreferences" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
+androidx-preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preferenceKtx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+androidx-tracing-ktx = { module = "androidx.tracing:tracing-ktx", version.ref = "tracingKtx" }
+androidx-ui = { module = "androidx.compose.ui:ui", version.ref = "uiTextGoogleFonts" }
+androidx-ui-text-google-fonts = { module = "androidx.compose.ui:ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroid" }
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlinStdlibJdk8" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+menu = { module = "com.composables.ui:menu", version.ref = "menu" }
+navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "composeNavigation" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization"}
+
+[plugins]
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
